@@ -15,3 +15,20 @@ The full Eonsunbird application and internal project code are not included in th
 - Cloudflare D1
 - Git / GitHub
 - QR / GTIN-based product lookup
+
+
+## My Role
+
+I am responsible for the technical development of the Eonsunbird project.
+
+My work includes:
+
+- Developing the web app in React and TypeScript
+- Building the QR/GTIN-based product scan flow
+- Connecting the frontend to product data through APIs
+- Structuring and handling product data
+- Deploying the application, API and catalogue using Cloudflare Workers and D1
+- Debugging issues across data lookup, frontend behaviour and API connectivity
+- Developing the public-facing Eonsunbird website
+
+The project is still under development and has not been publicly launched.
