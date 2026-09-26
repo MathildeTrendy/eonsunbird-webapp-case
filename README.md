@@ -43,6 +43,16 @@ This repository contains a simplified technical case based on my work on the Eon
 - [Architecture overview](docs/architecture.md)
 - [Product scan flow](docs/scan-flow.md)
 
+## Simplified Code Examples
+
+This repository also contains small, simplified examples based on the technical patterns used in the Eonsunbird web app.
+
+- [GTIN parser](examples/gtin-parser.ts)
+- [Product API client](examples/product-api-client.ts)
+- [Example product data](examples/product-data-example.json)
+
+These examples are rewritten for this case and are not copied directly from the production codebase.
+
 ### Screenshots
 
 #### Scan screen
