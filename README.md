@@ -47,15 +47,15 @@ This repository contains a simplified technical case based on my work on the Eon
 
 #### Scan screen
 
-![Scan screen](docs/screenshots/scan-screen.png)
+<img src="docs/screenshots/scan-screen.png" width="300">
 
 #### Authenticated product
 
-![Authenticated product](docs/screenshots/authenticated-state.png)
+<img src="docs/screenshots/authenticated-state.png" width="300">
 
 #### Product Passport
 
-![Product Passport](docs/screenshots/product-passport.png)
+<img src="docs/screenshots/product-passport.png" width="300">
 
 ## What this case demonstrates
 
