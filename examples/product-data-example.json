@@ -1,1 +1,10 @@
-
+{
+  "gtin": "05056825437670",
+  "name": "Example Product",
+  "brand": "Example Brand",
+  "materials": [
+    "Cotton",
+    "Recycled polyester"
+  ],
+  "countryOfOrigin": "Example"
+}
