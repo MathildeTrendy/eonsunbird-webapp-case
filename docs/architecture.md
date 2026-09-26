@@ -1,8 +1,8 @@
 # Architecture Overview
 
-The Eonsunbird web app is built around a simple flow where a scanned product identifier is used to retrieve structured product data and present it in the app.
+The Eonsunbird web app connects a scanned product identifier to structured product data through a simple API-based flow.
 
-## High-level flow
+## High-level architecture
 
 ```text
 User
@@ -15,8 +15,18 @@ API request
   ↓
 Cloudflare Worker
   ↓
-D1 database / product catalogue
+D1 product catalogue
   ↓
-Product data
+Structured product data
   ↓
-Product Passport view
+Product Passport
+```
+
+## Main components
+
+- **Web app:** React + TypeScript
+- **API:** Cloudflare Workers
+- **Database / catalogue:** Cloudflare D1
+- **Product identification:** QR / GTIN / GS1 Digital Link
+
+The full production codebase, private endpoints and internal product data are not included in this case.
