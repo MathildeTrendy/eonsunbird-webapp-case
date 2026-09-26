@@ -13,8 +13,8 @@ The full Eonsunbird application and internal project code are not included in th
 - REST APIs
 - Cloudflare Workers
 - Cloudflare D1
-- Git / GitHub
-- QR / GTIN-based product lookup
+- Git/GitHub
+- QR/GTIN-based product lookup
 
 
 ## My Role
@@ -32,3 +32,42 @@ My work includes:
 - Developing the public-facing Eonsunbird website
 
 The project is still under development and has not been publicly launched.
+
+
+## Case Overview
+
+This repository contains a simplified technical case based on my work on the Eonsunbird web app.
+
+### Documentation
+
+- [Architecture overview](docs/architecture.md)
+- [Product scan flow](docs/scan-flow.md)
+
+### Screenshots
+
+#### Scan screen
+
+![Scan screen](docs/screenshots/scan-screen.png)
+
+#### Authenticated product
+
+![Authenticated product](docs/screenshots/authenticated-state.png)
+
+#### Product Passport
+
+![Product Passport](docs/screenshots/product-passport.png)
+
+## What this case demonstrates
+
+- React and TypeScript development
+- API integration
+- QR/GTIN-based product lookup
+- Structured product data handling
+- Cloudflare Workers and D1
+- Deployment and debugging across frontend, API and data flow
+
+## Scope
+
+Eonsunbird is still under development and has not been publicly launched.
+
+This repository is a technical showcase and does not contain the full application, internal business logic, private endpoints, credentials or internal product data.
